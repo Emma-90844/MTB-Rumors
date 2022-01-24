@@ -1,7 +1,7 @@
-const mongooose = require('mongoose');
+const mongoose = require('mongoose');
 
 
-const PostSchema = new mongooose.Mongoose.Schema({
+const PostSchema = new mongoose.Schema({
     title:{
         type:String,
         required: true,
@@ -19,11 +19,11 @@ const PostSchema = new mongooose.Mongoose.Schema({
         type:String,
         default:""
     },
-    catergories:{
+    categories:{
         type:Array,
         required: false
     },
 },{timestamps: true});
 
 
-module.exports = mongoose.model('Category', CategorySchema)
+module.exports = mongoose.model('Post', PostSchema)
