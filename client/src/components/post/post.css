@@ -1,0 +1,124 @@
+.post{
+    width: 385px;
+    margin: 0px 25px 40px;
+}
+.postImg{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    
+}
+.postInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.postInfo >hr{
+    width: 80%;
+    margin-top: 9px;
+    /* border: 7px solid red; */
+    outline: none;
+    
+}
+
+.postCat{
+    font-family: 'varela Round', 'sans-serif';
+    font-size: 10px;
+    line-height: 25px;
+    margin-top: 15px;
+    margin-right: 18px;
+    cursor: pointer;
+}
+.postTitle{
+    font-family: 'josephin Sans', 'sans-serif';
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.postDate{
+    font-family: "Lora","serif";
+    font-style: italic;
+    font-size: 13px;
+    margin-top: 15px;
+   
+}
+.postDesc{
+    font-family: 'varela Round', 'sans-serif';
+    font-size: 14px;
+    color: #444;
+    line-height: 20px;
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
